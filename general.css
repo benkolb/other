@@ -50,7 +50,7 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
   margin: 0;
 }
 
-/* Add a red background color to navigation links on hover */
+/* Add a background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: rgb(0,42,65);
 }
