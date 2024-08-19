@@ -38,6 +38,50 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
   overflow: hidden;
 }
 
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+<!--
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
 /* Subnav button */
 .subnav .subnavbtn {
   font-size: 16px;
@@ -82,6 +126,7 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
 .subnav:hover .subnav-content {
   display: block;
 }
+-->
 
 .main {
   margin-top: 200px; /* Add a top margin to avoid content overlay */
