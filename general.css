@@ -24,10 +24,10 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
-  background-color: rgb(0,42,65);
-  color: white;
-}
+/*.navbar a:hover {*/
+  /*background-color: rgb(0,42,65);*/
+  /*color: white;*/
+/*}*/
 
 /* Active navbar */
 .navbar a.active {background-color: white; color: rgb(0,84,130);}
@@ -52,7 +52,8 @@ body {font-family: 'Linux Libertine', sans-serif; background-color:  rgb(192,208
 
 /* Add a background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgb(0,84,130);
+  background-color: rgb(0,42,65);
+  color: white;
 }
 /* WAS: background-color: red; */
 
